@@ -1,0 +1,30 @@
+{
+  "name": "realtyrealm",
+  "version": "1.0.0",
+  "description": "Discover your perfect property with RealtyRealm. Explore a diverse range of listings",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhtaransari/RealtyRealm.git"
+  },
+  "keywords": [
+    "Real",
+    "Estate"
+  ],
+  "author": "Akhtar Ansari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akhtaransari/RealtyRealm/issues"
+  },
+  "homepage": "https://github.com/akhtaransari/RealtyRealm#readme",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "ganache": "^7.9.2",
+    "mocha": "^10.3.0",
+    "solc": "^0.8.24",
+    "web3": "^4.5.0"
+  }
+}
