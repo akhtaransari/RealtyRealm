@@ -12,7 +12,7 @@ beforeEach(async () => {
     accounts = await web3.eth.getAccounts();
     propertyListing = await new web3.eth.Contract(abi)
         .deploy({ data: '0x' + evm.bytecode.object })
-        .send({ from: accounts[0], gas: '3000000' });
+        .send({ from: accounts[0], gas: '2100000' });
 });
 
 describe('PropertyListing Contract', () => {
