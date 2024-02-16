@@ -95,7 +95,7 @@ export default function ListingForm() {
       </div>
 
       <div className="relative z-0 w-full mb-5 group">
-        <input
+        <select
           type="text"
           name="location"
           value={formData.location}
@@ -103,19 +103,34 @@ export default function ListingForm() {
           className={style}
           placeholder="Location"
           required
-        />
+        >
+          <option value="">Select a City</option>
+          <option value="DD">Downtown Dubai</option>
+          <option value="DM">Dubai Marina</option>
+          <option value="PJ">Palm Jumeirah</option>
+          <option value="DBR">Jumeirah Beach Residence</option>
+          <option value="AR">Arabian Ranches</option>
+          <option value="JVC">Jumeirah Village Circle</option>
+          <option value="DHE">Dubai Hills Estate</option>
+          <option value="BI">Bluewaters Island</option>
+          <option value="MC">Meydan City</option>
+        </select>
       </div>
 
       <div className="relative z-0 w-full mb-5 group">
-        <input
+        <select
           type="text"
           name="propertyType"
           value={formData.propertyType}
           onChange={handleChange}
           className={style}
-          placeholder="Property Type 'Ex Villa"
           required
-        />
+        >
+          <option value="">Property Type</option>
+          <option value="villa">Villa</option>
+          <option value="apartment">Apartment</option>
+          <option value="house">House</option>
+        </select>
       </div>
 
       <div className="relative z-0 w-full mb-5 group">
