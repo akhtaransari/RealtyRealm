@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Apply 3D effect to anchor tags */
+a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+  }
+    
+  a:hover {
+    transform: translateY(-3px);
+  }
