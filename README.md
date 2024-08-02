@@ -1,6 +1,7 @@
-# RealtyRealm 
-
 # <img src="realty_realm_logo.png" alt="RealtyRealm Logo" width="400" height="80">
+
+```markdown
+# RealtyRealm 
 
 RealtyRealm is a decentralized application (DApp) built on the blockchain to manage property listings and transactions. It consists of smart contracts written in Solidity and tests written in JavaScript.
 
@@ -73,3 +74,4 @@ You can find the source code for this project on GitHub: [RealtyRealm](https://g
 - Akhtar Ansari ([GitHub](https://github.com/akhtaransari))
 
 Feel free to contribute to this project by submitting bug reports, feature requests, or pull requests.
+```
